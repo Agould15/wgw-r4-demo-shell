@@ -1,0 +1,33 @@
+name: Static site smoke
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  smoke:
+    name: Headless smoke test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+      - name: Install dependencies
+        run: npm install
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps
+      - name: Start static server
+        run: |
+          python3 -m http.server 8000 &
+          sleep 1
+      - name: Wait for server
+        run: |
+          i=0; until curl -sSf http://127.0.0.1:8000/index.html || [ $i -ge 10 ]; do sleep 1; i=$((i+1)); done
+      - name: Run headless smoke test
+        env:
+          URL: http://127.0.0.1:8000
+        run: npm run test:headless

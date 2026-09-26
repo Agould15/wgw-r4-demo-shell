@@ -1,0 +1,12 @@
+{
+  "name": "wgw-r4-demo-shell",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Static demo wrapper for 'What Gets Wet — Context in Action'",
+  "scripts": {
+    "test:headless": "node tests/headless-check.js"
+  },
+  "devDependencies": {
+    "playwright": "^1.40.0"
+  }
+}
