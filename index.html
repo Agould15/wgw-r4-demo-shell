@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>What Gets Wet — Context in Action</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main id="stage" class="stage">
+    <img id="poster" class="stage-media poster" alt="" />
+    <video id="video" class="stage-media video" playsinline preload="metadata"></video>
+
+    <div class="stage-scrim" aria-hidden="true"></div>
+
+    <button id="launcher" class="launcher" aria-label="Open context vignettes" aria-expanded="false">
+      <span class="dot-grid" aria-hidden="true">
+        <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+      </span>
+    </button>
+
+    <aside id="drawer" class="drawer" aria-hidden="true">
+      <div class="drawer-head">
+        <div>
+          <div class="eyebrow">WHAT GETS WET</div>
+          <h1>Context in Action</h1>
+          <p>Anchor QEA + Slalom</p>
+        </div>
+        <button id="closeDrawer" class="icon-button" aria-label="Close vignette drawer">×</button>
+      </div>
+      <div id="vignetteList" class="vignette-list"></div>
+    </aside>
+
+    <div class="clip-label">
+      <span id="clipKicker" class="clip-kicker"></span>
+      <strong id="clipTitle"></strong>
+    </div>
+
+    <div class="controls" role="group" aria-label="Video controls">
+      <button id="playPause" aria-label="Play or pause">▶</button>
+      <button id="restart" aria-label="Restart clip">↺</button>
+      <div class="time"><span id="timeNow">0:00</span><span class="time-sep">/</span><span id="timeTotal">0:00</span></div>
+      <button id="mute" aria-label="Mute or unmute">🔇</button>
+    </div>
+
+    <div id="status" class="status" role="status"></div>
+  </main>
+
+  <script src="vignettes.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
