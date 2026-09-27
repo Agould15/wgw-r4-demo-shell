@@ -32,6 +32,16 @@ Next steps:
 - Add or verify demo videos in `videos/`.
 - Test playback and drawer behavior in `index.html`.
 - Create a remote GitHub repository and push the `main` branch when ready.
+
+Metadata:
+- Author: Anthony Gould
+- Repo: https://github.com/Agould15/wgw-r4-demo-shell
+- Created: 2026-09-26
+
+License
+-------
+This project is provided under the MIT License. See LICENSE for details.
+
 # WGW R4 Demo Shell
 
 Starter package for the local pre-recorded demo experience.
