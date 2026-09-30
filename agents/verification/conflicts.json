@@ -1,0 +1,13 @@
+{
+  "resolved": true,
+  "resolution": {
+    "aoi": "AOI",
+    "vertical_datum": "vertical datum",
+    "provenance": "Anchor QEA"
+  },
+  "original_candidates": {
+    "aoi": ["aoi", "Connecticut", "AOI"],
+    "vertical_datum": ["datum", "vertical datum"],
+    "provenance": ["provenance", "Anchor QEA", "AQ"]
+  }
+}

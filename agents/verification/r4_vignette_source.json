@@ -1,0 +1,127 @@
+{
+  "extracted": {
+    "netcdf": [
+      "present"
+    ],
+    "aoi": [
+      "AOI"
+    ],
+    "vertical_datum": [
+      "vertical datum"
+    ],
+    "provenance": [
+      "Anchor QEA"
+    ],
+    "scenario": [
+      "100-year"
+    ]
+  },
+  "sources": {
+    "netcdf": [
+      {
+        "file": "/Users/anthonygould/Documents/GitHub/anchor-qea-digital-twin-pilot-repo/docs_inventory_review.md",
+        "snippet": "present"
+      },
+      {
+        "file": "/Users/anthonygould/Documents/GitHub/anchor-qea-digital-twin-pilot-repo/current_state.md",
+        "snippet": "present"
+      },
+      {
+        "file": "/Users/anthonygould/Documents/GitHub/anchor-qea-digital-twin-pilot-repo/docs/12_milestone_1/01_Milestone_1_Executive_Summary.md",
+        "snippet": "present"
+      },
+      {
+        "file": "/Users/anthonygould/Documents/GitHub/anchor-qea-digital-twin-pilot-repo/docs/04_data/netcdf_hydro_model_import_visualization.md",
+        "snippet": "present"
+      },
+      {
+        "file": "/Users/anthonygould/Documents/GitHub/anchor-qea-digital-twin-pilot-repo/docs/03_architecture/target_architecture.md",
+        "snippet": "present"
+      },
+      {
+        "file": "/Users/anthonygould/Documents/GitHub/anchor-qea-digital-twin-pilot-repo/project_brief.md",
+        "snippet": "present"
+      }
+    ],
+    "aoi": [
+      {
+        "file": "/Users/anthonygould/Documents/GitHub/anchor-qea-digital-twin-pilot-repo/docs_inventory_review.md",
+        "snippet": "aoi"
+      },
+      {
+        "file": "/Users/anthonygould/Documents/GitHub/anchor-qea-digital-twin-pilot-repo/current_state.md",
+        "snippet": "Connecticut"
+      },
+      {
+        "file": "/Users/anthonygould/Documents/GitHub/anchor-qea-digital-twin-pilot-repo/docs/12_milestone_1/01_Milestone_1_Executive_Summary.md",
+        "snippet": "AOI"
+      },
+      {
+        "file": "/Users/anthonygould/Documents/GitHub/anchor-qea-digital-twin-pilot-repo/docs/04_data/netcdf_hydro_model_import_visualization.md",
+        "snippet": "AOI"
+      },
+      {
+        "file": "/Users/anthonygould/Documents/GitHub/anchor-qea-digital-twin-pilot-repo/docs/03_architecture/target_architecture.md",
+        "snippet": "AOI"
+      },
+      {
+        "file": "/Users/anthonygould/Documents/GitHub/anchor-qea-digital-twin-pilot-repo/project_brief.md",
+        "snippet": "Connecticut"
+      }
+    ],
+    "vertical_datum": [
+      {
+        "file": "/Users/anthonygould/Documents/GitHub/anchor-qea-digital-twin-pilot-repo/docs_inventory_review.md",
+        "snippet": "datum"
+      },
+      {
+        "file": "/Users/anthonygould/Documents/GitHub/anchor-qea-digital-twin-pilot-repo/current_state.md",
+        "snippet": "datum"
+      },
+      {
+        "file": "/Users/anthonygould/Documents/GitHub/anchor-qea-digital-twin-pilot-repo/docs/04_data/netcdf_hydro_model_import_visualization.md",
+        "snippet": "vertical datum"
+      },
+      {
+        "file": "/Users/anthonygould/Documents/GitHub/anchor-qea-digital-twin-pilot-repo/docs/03_architecture/target_architecture.md",
+        "snippet": "datum"
+      },
+      {
+        "file": "/Users/anthonygould/Documents/GitHub/anchor-qea-digital-twin-pilot-repo/project_brief.md",
+        "snippet": "datum"
+      }
+    ],
+    "provenance": [
+      {
+        "file": "/Users/anthonygould/Documents/GitHub/anchor-qea-digital-twin-pilot-repo/docs_inventory_review.md",
+        "snippet": "provenance"
+      },
+      {
+        "file": "/Users/anthonygould/Documents/GitHub/anchor-qea-digital-twin-pilot-repo/current_state.md",
+        "snippet": "Anchor QEA"
+      },
+      {
+        "file": "/Users/anthonygould/Documents/GitHub/anchor-qea-digital-twin-pilot-repo/docs/12_milestone_1/01_Milestone_1_Executive_Summary.md",
+        "snippet": "Anchor QEA"
+      },
+      {
+        "file": "/Users/anthonygould/Documents/GitHub/anchor-qea-digital-twin-pilot-repo/docs/04_data/netcdf_hydro_model_import_visualization.md",
+        "snippet": "AQ"
+      },
+      {
+        "file": "/Users/anthonygould/Documents/GitHub/anchor-qea-digital-twin-pilot-repo/docs/03_architecture/target_architecture.md",
+        "snippet": "Anchor QEA"
+      },
+      {
+        "file": "/Users/anthonygould/Documents/GitHub/anchor-qea-digital-twin-pilot-repo/project_brief.md",
+        "snippet": "Anchor QEA"
+      }
+    ],
+    "scenario": [
+      {
+        "file": "/Users/anthonygould/Documents/GitHub/anchor-qea-digital-twin-pilot-repo/docs/03_architecture/target_architecture.md",
+        "snippet": "100-year"
+      }
+    ]
+  }
+}

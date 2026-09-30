@@ -1,0 +1,37 @@
+[
+  {
+    "type": "click",
+    "time": 1790636386604,
+    "selector": "body > div > div > main > div > div > div > div:nth-of-type(5) > div:nth-of-type(2) > div > div > div > div > div:nth-of-type(9) > div > div > div > svg",
+    "x": 922,
+    "y": 27
+  },
+  {
+    "type": "click",
+    "time": 1790636393554,
+    "selector": "body > div > div > main > div > div > div > div:nth-of-type(4) > div:nth-of-type(2) > div > div > canvas",
+    "x": 1289,
+    "y": 683
+  },
+  {
+    "type": "click",
+    "time": 1790636398317,
+    "selector": "body > div > div > main > div > div > div > div:nth-of-type(5) > div:nth-of-type(4) > div:nth-of-type(2) > div > div:nth-of-type(2) > span",
+    "x": 732,
+    "y": 925
+  },
+  {
+    "type": "click",
+    "time": 1790636404088,
+    "selector": "body > div > div > main > div > div > div > div:nth-of-type(5) > div:nth-of-type(4) > div:nth-of-type(2) > div > div:nth-of-type(2) > span > span:nth-of-type(3)",
+    "x": 744,
+    "y": 924
+  },
+  {
+    "type": "click",
+    "time": 1790636405721,
+    "selector": "body > div > div > main > div > div > div > div:nth-of-type(5) > div:nth-of-type(4) > div:nth-of-type(2) > div > div:nth-of-type(2) > span > span:nth-of-type(3)",
+    "x": 758,
+    "y": 924
+  }
+]

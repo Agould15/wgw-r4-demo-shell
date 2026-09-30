@@ -1,0 +1,570 @@
+[
+  {
+    "type": "log",
+    "text": "LOAD_PACKAGE {ENV: UAT, VERSION: 2429, RELEASE: 25.6393, URL_BASES: nav.nextspace-uat-us-nj.net, URL_GUARDIAN: }"
+  },
+  {
+    "type": "info",
+    "text": "Known base URLs:  [nav.nextspace-uat-us-nj.net]"
+  },
+  {
+    "type": "log",
+    "text": "CrossWindowComm: Detected main window"
+  },
+  {
+    "type": "warning",
+    "text": "WARNING: Multiple instances of Three.js being imported."
+  },
+  {
+    "type": "log",
+    "text": "[useAuth] env: UAT"
+  },
+  {
+    "type": "log",
+    "text": "[AuthGuard] Checking auth. Requires: account"
+  },
+  {
+    "type": "log",
+    "text": "[AuthGuard] Processed Account. Has Account: true, ID:  anchorqae1"
+  },
+  {
+    "type": "log",
+    "text": "[AuthGuard] Validated Account."
+  },
+  {
+    "type": "log",
+    "text": "[AuthGuard] Updated API interceptor. Strict: false"
+  },
+  {
+    "type": "log",
+    "text": "[AuthGuard] Auth check complete. Child items will be rendered."
+  },
+  {
+    "type": "log",
+    "text": "[LanguageProvider] Loading user locale.."
+  },
+  {
+    "type": "log",
+    "text": "[loadCatalog] Loading catalog for en, message count: 543"
+  },
+  {
+    "type": "log",
+    "text": "[LanguageProvider] User locale set to en"
+  },
+  {
+    "type": "log",
+    "text": "[LanguageProvider] User locale loaded."
+  },
+  {
+    "type": "error",
+    "text": "Failed to load resource: the server responded with a status of 400 ()"
+  },
+  {
+    "type": "error",
+    "text": "[useAuth] Failed to load permissions. {ERROR: Object}"
+  },
+  {
+    "type": "log",
+    "text": "Running version: 0.0.0.0"
+  },
+  {
+    "type": "log",
+    "text": "Viewer ready!"
+  },
+  {
+    "type": "log",
+    "text": "[NavigatorBridge/WS] [NavigatorMcpWS] Connecting to wss://ws.chat.nextspace-uat-us-nj.net/navigator/chat/ws?accountId=anchorqae1&fingerprint=a8538f53-e882-4fa4-96b0-cacbcd19153c&apiBaseUrl=https%3A%2F%2Fanchorqae1.api.nextspace-uat-us-nj.net%2F"
+  },
+  {
+    "type": "log",
+    "text": "[NavigatorBridge/WS] [NavigatorMcpWS] Connected"
+  },
+  {
+    "type": "log",
+    "text": "[auto-open-panel] loaded, target 2f1ec4f3240e"
+  },
+  {
+    "type": "log",
+    "text": "[auto-open-panel] bookmark AGQOSVHY3B2GJPAEG6UU7PTWIM is not AGQESO7AGZZEROG4GVAHXY4GJ4, leaving the panel closed for this page load"
+  },
+  {
+    "type": "warning",
+    "text": "[.WebGL-0x12400448c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+  },
+  {
+    "type": "debug",
+    "text": "[NavigatorBridge/WS] [NavigatorMcpWS] Ignoring unsupported message {jsonrpc: 2.0, method: server_ready_ack, result: MCP server ready, session: Object}"
+  },
+  {
+    "type": "warning",
+    "text": "[.WebGL-0x12400448c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+  },
+  {
+    "type": "warning",
+    "text": "[.WebGL-0x12400448c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+  },
+  {
+    "type": "warning",
+    "text": "[.WebGL-0x12400448c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+  },
+  {
+    "type": "log",
+    "text": "[terrain-occlusion] console probe ready: __wgw.sweep() runs the whole set, __wgw.at(lon, lat) flies then reads, __wgw.read(lon, lat) reads where you are, __wgw.probe(lon, lat) rings one point, __wgw.lift(), __wgw.state()"
+  },
+  {
+    "type": "warning",
+    "text": "Entity geometry with zIndex are unsupported when height or extrudedHeight are defined.  zIndex will be ignored"
+  },
+  {
+    "type": "log",
+    "text": "[terrain-occlusion] lift surface at the datum check: NOT SAMPLED YET (terrain 2ddb4f39-05b1-49be-be6a-83790d5ca415)"
+  },
+  {
+    "type": "warning",
+    "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
+  },
+  {
+    "type": "log",
+    "text": "[terrain-occlusion] lift surface at 10000 ms: level 9, -31.03 to 124.43 m, 3392/16384 samples (21% landed), clearance 0.5 m, data -34.21 to -28.75, camera 7457 m, 29346 ms since load, terrain 2ddb4f39-05b1-49be-be6a-83790d5ca415"
+  },
+  {
+    "type": "log",
+    "text": "LOAD_PACKAGE {ENV: UAT, VERSION: 2429, RELEASE: 25.6393, URL_BASES: nav.nextspace-uat-us-nj.net, URL_GUARDIAN: }"
+  },
+  {
+    "type": "info",
+    "text": "Known base URLs:  [nav.nextspace-uat-us-nj.net]"
+  },
+  {
+    "type": "log",
+    "text": "CrossWindowComm: Detected main window"
+  },
+  {
+    "type": "warning",
+    "text": "WARNING: Multiple instances of Three.js being imported."
+  },
+  {
+    "type": "log",
+    "text": "[useAuth] env: UAT"
+  },
+  {
+    "type": "log",
+    "text": "[AuthGuard] Checking auth. Requires: account"
+  },
+  {
+    "type": "log",
+    "text": "[AuthGuard] Processed Account. Has Account: true, ID:  anchorqae1"
+  },
+  {
+    "type": "log",
+    "text": "[AuthGuard] Validated Account."
+  },
+  {
+    "type": "log",
+    "text": "[AuthGuard] Updated API interceptor. Strict: false"
+  },
+  {
+    "type": "log",
+    "text": "[AuthGuard] Auth check complete. Child items will be rendered."
+  },
+  {
+    "type": "log",
+    "text": "[LanguageProvider] Loading user locale.."
+  },
+  {
+    "type": "log",
+    "text": "[loadCatalog] Loading catalog for en, message count: 543"
+  },
+  {
+    "type": "log",
+    "text": "[LanguageProvider] User locale set to en"
+  },
+  {
+    "type": "log",
+    "text": "[LanguageProvider] User locale loaded."
+  },
+  {
+    "type": "error",
+    "text": "Failed to load resource: the server responded with a status of 400 ()"
+  },
+  {
+    "type": "error",
+    "text": "[useAuth] Failed to load permissions. {ERROR: Object}"
+  },
+  {
+    "type": "log",
+    "text": "Running version: 0.0.0.0"
+  },
+  {
+    "type": "log",
+    "text": "Viewer ready!"
+  },
+  {
+    "type": "log",
+    "text": "[NavigatorBridge/WS] [NavigatorMcpWS] Connecting to wss://ws.chat.nextspace-uat-us-nj.net/navigator/chat/ws?accountId=anchorqae1&fingerprint=5dd23f5d-5405-465a-9c3e-da389c80f6d2&apiBaseUrl=https%3A%2F%2Fanchorqae1.api.nextspace-uat-us-nj.net%2F"
+  },
+  {
+    "type": "log",
+    "text": "[NavigatorBridge/WS] [NavigatorMcpWS] Connected"
+  },
+  {
+    "type": "log",
+    "text": "[auto-open-panel] loaded, target 2f1ec4f3240e"
+  },
+  {
+    "type": "log",
+    "text": "[auto-open-panel] bookmark AGQOSVHY3B2GJPAEG6UU7PTWIM is not AGQESO7AGZZEROG4GVAHXY4GJ4, leaving the panel closed for this page load"
+  },
+  {
+    "type": "debug",
+    "text": "[NavigatorBridge/WS] [NavigatorMcpWS] Ignoring unsupported message {jsonrpc: 2.0, method: server_ready_ack, result: MCP server ready, session: Object}"
+  },
+  {
+    "type": "log",
+    "text": "[terrain-occlusion] console probe ready: __wgw.sweep() runs the whole set, __wgw.at(lon, lat) flies then reads, __wgw.read(lon, lat) reads where you are, __wgw.probe(lon, lat) rings one point, __wgw.lift(), __wgw.state()"
+  },
+  {
+    "type": "log",
+    "text": "[terrain-occlusion] lift surface at the datum check: NOT SAMPLED YET (terrain 2ddb4f39-05b1-49be-be6a-83790d5ca415)"
+  },
+  {
+    "type": "warning",
+    "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
+  },
+  {
+    "type": "log",
+    "text": "[terrain-occlusion] lift surface at 10000 ms: NOT SAMPLED YET (terrain 2ddb4f39-05b1-49be-be6a-83790d5ca415)"
+  },
+  {
+    "type": "log",
+    "text": "LOAD_PACKAGE {ENV: UAT, VERSION: 2429, RELEASE: 25.6393, URL_BASES: nav.nextspace-uat-us-nj.net, URL_GUARDIAN: }"
+  },
+  {
+    "type": "info",
+    "text": "Known base URLs:  [nav.nextspace-uat-us-nj.net]"
+  },
+  {
+    "type": "log",
+    "text": "CrossWindowComm: Detected main window"
+  },
+  {
+    "type": "warning",
+    "text": "WARNING: Multiple instances of Three.js being imported."
+  },
+  {
+    "type": "log",
+    "text": "[useAuth] env: UAT"
+  },
+  {
+    "type": "log",
+    "text": "[AuthGuard] Checking auth. Requires: account"
+  },
+  {
+    "type": "log",
+    "text": "[AuthGuard] Processed Account. Has Account: true, ID:  anchorqae1"
+  },
+  {
+    "type": "log",
+    "text": "[AuthGuard] Validated Account."
+  },
+  {
+    "type": "log",
+    "text": "[AuthGuard] Updated API interceptor. Strict: false"
+  },
+  {
+    "type": "log",
+    "text": "[AuthGuard] Auth check complete. Child items will be rendered."
+  },
+  {
+    "type": "log",
+    "text": "[LanguageProvider] Loading user locale.."
+  },
+  {
+    "type": "log",
+    "text": "[loadCatalog] Loading catalog for en, message count: 543"
+  },
+  {
+    "type": "log",
+    "text": "[LanguageProvider] User locale set to en"
+  },
+  {
+    "type": "log",
+    "text": "[LanguageProvider] User locale loaded."
+  },
+  {
+    "type": "error",
+    "text": "Failed to load resource: the server responded with a status of 400 ()"
+  },
+  {
+    "type": "error",
+    "text": "[useAuth] Failed to load permissions. {ERROR: Object}"
+  },
+  {
+    "type": "log",
+    "text": "Running version: 0.0.0.0"
+  },
+  {
+    "type": "log",
+    "text": "Viewer ready!"
+  },
+  {
+    "type": "log",
+    "text": "[NavigatorBridge/WS] [NavigatorMcpWS] Connecting to wss://ws.chat.nextspace-uat-us-nj.net/navigator/chat/ws?accountId=anchorqae1&fingerprint=d85b31bb-385b-4baa-929d-6e164169f33d&apiBaseUrl=https%3A%2F%2Fanchorqae1.api.nextspace-uat-us-nj.net%2F"
+  },
+  {
+    "type": "log",
+    "text": "[NavigatorBridge/WS] [NavigatorMcpWS] Connected"
+  },
+  {
+    "type": "log",
+    "text": "[auto-open-panel] loaded, target 2f1ec4f3240e"
+  },
+  {
+    "type": "log",
+    "text": "[auto-open-panel] bookmark AGQOSVHY3B2GJPAEG6UU7PTWIM is not AGQESO7AGZZEROG4GVAHXY4GJ4, leaving the panel closed for this page load"
+  },
+  {
+    "type": "debug",
+    "text": "[NavigatorBridge/WS] [NavigatorMcpWS] Ignoring unsupported message {jsonrpc: 2.0, method: server_ready_ack, result: MCP server ready, session: Object}"
+  },
+  {
+    "type": "log",
+    "text": "[terrain-occlusion] console probe ready: __wgw.sweep() runs the whole set, __wgw.at(lon, lat) flies then reads, __wgw.read(lon, lat) reads where you are, __wgw.probe(lon, lat) rings one point, __wgw.lift(), __wgw.state()"
+  },
+  {
+    "type": "warning",
+    "text": "Entity geometry with zIndex are unsupported when height or extrudedHeight are defined.  zIndex will be ignored"
+  },
+  {
+    "type": "log",
+    "text": "[terrain-occlusion] lift surface at the datum check: NOT SAMPLED YET (terrain 2ddb4f39-05b1-49be-be6a-83790d5ca415)"
+  },
+  {
+    "type": "warning",
+    "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
+  },
+  {
+    "type": "log",
+    "text": "[terrain-occlusion] lift surface at 10000 ms: level 9, -31.03 to 124.43 m, 3392/16384 samples (21% landed), clearance 0.5 m, data -34.21 to -28.75, camera 7457 m, 23498 ms since load, terrain 2ddb4f39-05b1-49be-be6a-83790d5ca415"
+  },
+  {
+    "type": "log",
+    "text": "LOAD_PACKAGE {ENV: UAT, VERSION: 2429, RELEASE: 25.6393, URL_BASES: nav.nextspace-uat-us-nj.net, URL_GUARDIAN: }"
+  },
+  {
+    "type": "info",
+    "text": "Known base URLs:  [nav.nextspace-uat-us-nj.net]"
+  },
+  {
+    "type": "log",
+    "text": "CrossWindowComm: Detected main window"
+  },
+  {
+    "type": "warning",
+    "text": "WARNING: Multiple instances of Three.js being imported."
+  },
+  {
+    "type": "log",
+    "text": "[useAuth] env: UAT"
+  },
+  {
+    "type": "log",
+    "text": "[AuthGuard] Checking auth. Requires: account"
+  },
+  {
+    "type": "log",
+    "text": "[AuthGuard] Processed Account. Has Account: true, ID:  anchorqae1"
+  },
+  {
+    "type": "log",
+    "text": "[AuthGuard] Validated Account."
+  },
+  {
+    "type": "log",
+    "text": "[AuthGuard] Updated API interceptor. Strict: false"
+  },
+  {
+    "type": "log",
+    "text": "[AuthGuard] Auth check complete. Child items will be rendered."
+  },
+  {
+    "type": "log",
+    "text": "[LanguageProvider] Loading user locale.."
+  },
+  {
+    "type": "log",
+    "text": "[loadCatalog] Loading catalog for en, message count: 543"
+  },
+  {
+    "type": "log",
+    "text": "[LanguageProvider] User locale set to en"
+  },
+  {
+    "type": "log",
+    "text": "[LanguageProvider] User locale loaded."
+  },
+  {
+    "type": "error",
+    "text": "Failed to load resource: the server responded with a status of 400 ()"
+  },
+  {
+    "type": "error",
+    "text": "[useAuth] Failed to load permissions. {ERROR: Object}"
+  },
+  {
+    "type": "log",
+    "text": "Running version: 0.0.0.0"
+  },
+  {
+    "type": "log",
+    "text": "Viewer ready!"
+  },
+  {
+    "type": "log",
+    "text": "[NavigatorBridge/WS] [NavigatorMcpWS] Connecting to wss://ws.chat.nextspace-uat-us-nj.net/navigator/chat/ws?accountId=anchorqae1&fingerprint=2579bb90-cbcd-42f4-83d8-bdd4301e913a&apiBaseUrl=https%3A%2F%2Fanchorqae1.api.nextspace-uat-us-nj.net%2F"
+  },
+  {
+    "type": "log",
+    "text": "[NavigatorBridge/WS] [NavigatorMcpWS] Connected"
+  },
+  {
+    "type": "log",
+    "text": "[auto-open-panel] loaded, target 2f1ec4f3240e"
+  },
+  {
+    "type": "log",
+    "text": "[auto-open-panel] bookmark AGQOSVHY3B2GJPAEG6UU7PTWIM is not AGQESO7AGZZEROG4GVAHXY4GJ4, leaving the panel closed for this page load"
+  },
+  {
+    "type": "debug",
+    "text": "[NavigatorBridge/WS] [NavigatorMcpWS] Ignoring unsupported message {jsonrpc: 2.0, method: server_ready_ack, result: MCP server ready, session: Object}"
+  },
+  {
+    "type": "log",
+    "text": "[terrain-occlusion] console probe ready: __wgw.sweep() runs the whole set, __wgw.at(lon, lat) flies then reads, __wgw.read(lon, lat) reads where you are, __wgw.probe(lon, lat) rings one point, __wgw.lift(), __wgw.state()"
+  },
+  {
+    "type": "warning",
+    "text": "Entity geometry with zIndex are unsupported when height or extrudedHeight are defined.  zIndex will be ignored"
+  },
+  {
+    "type": "log",
+    "text": "[terrain-occlusion] lift surface at the datum check: NOT SAMPLED YET (terrain 2ddb4f39-05b1-49be-be6a-83790d5ca415)"
+  },
+  {
+    "type": "warning",
+    "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
+  },
+  {
+    "type": "log",
+    "text": "[terrain-occlusion] lift surface at 10000 ms: level 9, -31.03 to 124.43 m, 3392/16384 samples (21% landed), clearance 0.5 m, data -34.21 to -28.75, camera 7457 m, 21091 ms since load, terrain 2ddb4f39-05b1-49be-be6a-83790d5ca415"
+  },
+  {
+    "type": "log",
+    "text": "LOAD_PACKAGE {ENV: UAT, VERSION: 2429, RELEASE: 25.6393, URL_BASES: nav.nextspace-uat-us-nj.net, URL_GUARDIAN: }"
+  },
+  {
+    "type": "info",
+    "text": "Known base URLs:  [nav.nextspace-uat-us-nj.net]"
+  },
+  {
+    "type": "log",
+    "text": "CrossWindowComm: Detected main window"
+  },
+  {
+    "type": "warning",
+    "text": "WARNING: Multiple instances of Three.js being imported."
+  },
+  {
+    "type": "log",
+    "text": "[useAuth] env: UAT"
+  },
+  {
+    "type": "log",
+    "text": "[AuthGuard] Checking auth. Requires: account"
+  },
+  {
+    "type": "log",
+    "text": "[AuthGuard] Processed Account. Has Account: true, ID:  anchorqae1"
+  },
+  {
+    "type": "log",
+    "text": "[AuthGuard] Validated Account."
+  },
+  {
+    "type": "log",
+    "text": "[AuthGuard] Updated API interceptor. Strict: false"
+  },
+  {
+    "type": "log",
+    "text": "[AuthGuard] Auth check complete. Child items will be rendered."
+  },
+  {
+    "type": "log",
+    "text": "[LanguageProvider] Loading user locale.."
+  },
+  {
+    "type": "log",
+    "text": "[loadCatalog] Loading catalog for en, message count: 543"
+  },
+  {
+    "type": "log",
+    "text": "[LanguageProvider] User locale set to en"
+  },
+  {
+    "type": "log",
+    "text": "[LanguageProvider] User locale loaded."
+  },
+  {
+    "type": "error",
+    "text": "Failed to load resource: the server responded with a status of 400 ()"
+  },
+  {
+    "type": "error",
+    "text": "[useAuth] Failed to load permissions. {ERROR: Object}"
+  },
+  {
+    "type": "log",
+    "text": "Running version: 0.0.0.0"
+  },
+  {
+    "type": "log",
+    "text": "Viewer ready!"
+  },
+  {
+    "type": "log",
+    "text": "[NavigatorBridge/WS] [NavigatorMcpWS] Connecting to wss://ws.chat.nextspace-uat-us-nj.net/navigator/chat/ws?accountId=anchorqae1&fingerprint=89a0b299-f0dc-4427-a615-5dad6d896ddb&apiBaseUrl=https%3A%2F%2Fanchorqae1.api.nextspace-uat-us-nj.net%2F"
+  },
+  {
+    "type": "log",
+    "text": "[NavigatorBridge/WS] [NavigatorMcpWS] Connected"
+  },
+  {
+    "type": "log",
+    "text": "[auto-open-panel] loaded, target 2f1ec4f3240e"
+  },
+  {
+    "type": "log",
+    "text": "[auto-open-panel] bookmark AGQOSVHY3B2GJPAEG6UU7PTWIM is not AGQESO7AGZZEROG4GVAHXY4GJ4, leaving the panel closed for this page load"
+  },
+  {
+    "type": "debug",
+    "text": "[NavigatorBridge/WS] [NavigatorMcpWS] Ignoring unsupported message {jsonrpc: 2.0, method: server_ready_ack, result: MCP server ready, session: Object}"
+  },
+  {
+    "type": "log",
+    "text": "[terrain-occlusion] console probe ready: __wgw.sweep() runs the whole set, __wgw.at(lon, lat) flies then reads, __wgw.read(lon, lat) reads where you are, __wgw.probe(lon, lat) rings one point, __wgw.lift(), __wgw.state()"
+  },
+  {
+    "type": "log",
+    "text": "[terrain-occlusion] lift surface at the datum check: NOT SAMPLED YET (terrain 2ddb4f39-05b1-49be-be6a-83790d5ca415)"
+  },
+  {
+    "type": "warning",
+    "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
+  },
+  {
+    "type": "log",
+    "text": "[terrain-occlusion] lift surface at 10000 ms: level 9, -31.03 to 124.43 m, 3392/16384 samples (21% landed), clearance 0.5 m, data -34.21 to -28.75, camera 7457 m, 24698 ms since load, terrain 2ddb4f39-05b1-49be-be6a-83790d5ca415"
+  }
+]

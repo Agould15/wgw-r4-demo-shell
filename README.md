@@ -1,78 +1,58 @@
-# What Gets Wet — R4 Demo Shell
+# What Gets Wet — Context in Action
 
-Purpose: a static, offline demo wrapper for the "What Gets Wet — Context in Action" R4 presentation.
+Portable playback shell for the WGW R4 demo. The presenters carry the story; the local vignettes provide visual support.
 
-Contents:
-- `index.html` — demo wrapper and player
-- `vignettes.js`, `app.js`, `styles.css` — demo behavior and styles
-- `videos/` — local MP4 vignettes (place your recorded clips here)
-- `assets/` — poster images and other static assets
+## Conference playback
 
-Getting started (macOS / Linux / Windows WSL):
+The presentation package is designed to run offline from `file://` without a server, Node, npm, or internet access. Once a complete package is available, unzip it and open `index.html` in Chrome or Edge. See `README_OFFLINE.txt` inside the package.
 
-1. Serve the folder with a simple static server (Node.js):
+## Local development
 
-   ```bash
-   npx serve .
-   # then open http://localhost:3000 in your browser
-   ```
-
-2. Or use Python 3 built-in server:
-
-   ```bash
-   python3 -m http.server 8000
-   # then open http://localhost:8000
-   ```
-
-Notes:
-- This project is intentionally static and offline. Do not add network requests.
-- Before pushing to a remote, verify video filenames and `vignettes.js` configuration.
-
-Next steps:
-- Add or verify demo videos in `videos/`.
-- Test playback and drawer behavior in `index.html`.
-- Create a remote GitHub repository and push the `main` branch when ready.
-
-Metadata:
-- Author: Anthony Gould
-- Repo: https://github.com/Agould15/wgw-r4-demo-shell
-- Created: 2026-09-26
-
-License
--------
-This project is provided under the MIT License. See LICENSE for details.
-
-# WGW R4 Demo Shell
-
-Starter package for the local pre-recorded demo experience.
-
-## Included
-- `index.html` — demo shell
-- `styles.css` — Nextspace-inspired visual treatment
-- `vignettes.js` — vignette manifest
-- `app.js` — playback and drawer logic
-- `WGW_R4_Demo_Target_v4.md` — target story and talk track
-- `UI_SPEC.md` — UX requirements
-- `CODEX_PROJECT_BRIEF.md` — ready-to-use Codex project brief
-- `assets/posters/` — current Nextspace screenshots
-- `videos/` — drop final MP4 clips here
-
-## Quick start
-Open `index.html` directly, or run:
+Open `index.html` directly in a browser to check the offline experience. A small local server is also available for development and large video byte-range playback:
 
 ```bash
-python -m http.server 8080
+python3 scripts/serve.py
 ```
 
-Then visit `http://localhost:8080`.
+Then open <http://127.0.0.1:8000/>. The server is optional and is not part of the conference run path.
 
-The current posters let you demonstrate the intended UI before final videos exist.
+## Vignettes and media
 
-## Git
+The launcher is configured in `vignettes.js` to match the V5 story:
+
+1. What might happen?
+2. What else is affected?
+3. Can the system explain why?
+4. What does AQ know? (optional)
+5. Can the context be reused?
+6. What changed over time?
+7. What is inside the building?
+8. What could we change? (future)
+
+Place edited, final 1920×1080, 30 fps MP4 exports in `videos/` using the filenames in `vignettes.js`. Working `.mov` recordings are kept out of portable packages. Missing exports show their local poster and a subtle “Video not loaded yet” message.
+
+## Build an offline package
+
+The packaging script includes only the player, local posters, presentation notes, and expected final MP4s. It never copies source recordings, browser profiles, credentials, or development dependencies.
+
 ```bash
-git init
-git add .
-git commit -m "Initial WGW R4 demo shell"
+python3 scripts/package_offline.py --draft
 ```
 
-Keep the repository private/internal as appropriate for the project.
+This creates `dist/WGW_R4_Demo_Offline_v1_DRAFT.zip` while final clips are missing. A final package is created only when all eight MP4s are present:
+
+```bash
+python3 scripts/package_offline.py
+```
+
+The final archive is `dist/WGW_R4_Demo_Offline_v1.zip`; its SHA-256 is written beside it. The script exits with a list of missing exports instead of naming an incomplete package as final.
+
+## Capture and editing
+
+See [the V5 Filmmaker + Cast Guide](WGW_R4_Demo_Filmmaker_Cast_Guide_v5.md), [capture brief v2](agents/WGW_R4_Nextspace_Animation_Capture_AGENTS_v2.md). Capture UI-specific instructions must be checked against the current Nextspace environment and labeled New UI, Old UI, or Available in Both. Manual screen recording is appropriate when automation is not verified.
+
+Hydro time-step source captures belong in `agents/captures/` with original lossless frames and a manifest. Keep source frames and working recordings outside the portable conference package.
+
+## Current media status
+
+The working folder currently contains poster art and source `.mov` recordings, but not all eight final named MP4 exports. The offline package can be previewed as a draft; it must not be described as the completed portable conference build until all exports are present and the package has been opened from a different folder path without a server.

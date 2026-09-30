@@ -1,0 +1,17 @@
+{
+  "wse_field": "Val_1",
+  "processing_crs": "EPSG:26918",
+  "working_vertical_datum": "NAVD88",
+  "vertical_datum_status": "ASSUMED_FOR_R4_NOT_SOURCE_CONFIRMED",
+  "wse_units": "meters",
+  "dtm_units": "meters",
+  "wet_depth_threshold_m": 0.01,
+  "processing_resolution_m": 1.0,
+  "tile_size_pixels": 2048,
+  "all_touched": false,
+  "minimum_wet_region_area_m2": 25.0,
+  "minimum_dry_hole_area_m2": 100.0,
+  "simplify_tolerance_m": 2.0,
+  "nextspace_part_grid_m": 1000.0,
+  "output_crs": "EPSG:4326"
+}

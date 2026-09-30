@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>What Gets Wet — Context in Action</title>
+  <title>Context in Action — What Gets Wet</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -24,22 +24,18 @@
         <div>
           <div class="eyebrow">WHAT GETS WET</div>
           <h1>Context in Action</h1>
-          <p>Anchor QEA + Slalom</p>
+          <p>What Gets Wet · Anchor QEA + Slalom</p>
         </div>
         <button id="closeDrawer" class="icon-button" aria-label="Close vignette drawer">×</button>
       </div>
       <div id="vignetteList" class="vignette-list"></div>
     </aside>
 
-    <div class="clip-label">
-      <span id="clipKicker" class="clip-kicker"></span>
-      <strong id="clipTitle"></strong>
-    </div>
-
     <div class="controls" role="group" aria-label="Video controls">
       <button id="playPause" aria-label="Play or pause">▶</button>
       <button id="restart" aria-label="Restart clip">↺</button>
       <div class="time"><span id="timeNow">0:00</span><span class="time-sep">/</span><span id="timeTotal">0:00</span></div>
+      <input id="seek" class="seek" type="range" min="0" max="1000" value="0" aria-label="Seek within vignette" />
       <button id="mute" aria-label="Mute or unmute">🔇</button>
     </div>
 

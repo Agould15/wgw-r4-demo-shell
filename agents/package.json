@@ -1,0 +1,21 @@
+{
+  "name": "wgw-capture-agent",
+  "version": "0.1.0",
+  "description": "Playwright-based capture starter for What Gets Wet demo (dry-run supported)",
+  "main": "capture.js",
+  "scripts": {
+    "start": "node capture.js",
+    "dry-run": "node capture.js --dry-run"
+  },
+  "devDependencies": {
+    "playwright": "^1.38.0"
+  },
+  "dependencies": {
+    "minimist": "^1.2.8"
+  },
+  "optionalDependencies": {
+    "pixelmatch": "^5.3.0",
+    "pngjs": "^6.0.0"
+  },
+  "license": "MIT"
+}
